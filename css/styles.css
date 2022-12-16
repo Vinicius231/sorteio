@@ -1,0 +1,107 @@
+body {
+  background: rgb(0, 26, 255);
+}
+.container {
+  width: 600px;
+  height: 550px;
+  background: white;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+}
+.divLabel {
+  width: 230px;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: start;
+  position: relative;
+}
+input {
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 14pt;
+  margin-top: 10px;
+}
+.nomeVencedor {
+  font: bolder 25pt Arial;
+  animation: colorAnime 5s infinite;
+}
+.numeroVencedor {
+  font: bolder 25pt Arial;
+  border: 4px solid red;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+  color: black;
+  margin-top: 10px;
+}
+.divVencedor {
+  border: 3px solid black;
+  width: 550px;
+  height: 200px;
+  margin: auto;
+  margin-top: -40px;
+  border-radius: 15px;
+  transition: 2s;
+  color: black;
+  display: none;
+}
+.sortearBTN {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  font: bold 13pt Arial;
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+.sortearBTN:hover {
+  background: rgb(255, 123, 0);
+  width: 155px;
+}
+.adicionarBTN {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  font: bold 13pt Arial;
+  background: gray;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.adicionarBTN:hover {
+  background: rgb(100, 100, 100);
+  width: 155px;
+}
+.contagem {
+  font-size: 35pt;
+}
+
+@keyframes colorAnime {
+  0% {
+    color: black;
+  }
+  20% {
+    color: rgb(0, 139, 0);
+  }
+  40% {
+    color: rgb(30, 255, 0);
+  }
+  60% {
+    color: rgb(0, 68, 255);
+  }
+  80% {
+    color: rgb(0, 217, 255);
+  }
+  100% {
+    color: black;
+  }
+}

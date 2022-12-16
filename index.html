@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <h1>Sorteio</h1>
+        <div class="img"></div>
+        <button onclick="sortear()" class="sortearBTN">Sortear Agora</button>
+        <br />
+
+        <div class="divLabel">
+          <input id="nome" type="text" placeholder="Nome" />
+          <input
+            id="numero"
+            class="inputNumero"
+            type="text"
+            placeholder="Número"
+          />
+        </div>
+        <button onclick="adicionar()" class="adicionarBTN">Adicionar</button>
+
+        <section class="ganhador">
+          <h1 class="contagem"></h1>
+          <div class="divVencedor">
+            <h1>O numero sorteado foi:</h1>
+            <h1 class="numeroVencedor"></h1>
+            <h1 class="nomeVencedor"></h1>
+          </div>
+        </section>
+      </div>
+      <div class="containerTable">
+        <table>
+          <thead>
+            <tr>
+              <th class="numero">Número</th>
+              <th class="nome">Nome</th>
+            </tr>
+          </thead>
+          <tbody class="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

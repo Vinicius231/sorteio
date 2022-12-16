@@ -1,0 +1,17 @@
+tr,th,td,table {
+    border: 1px solid black;
+}
+table {
+    background: white;
+    margin: auto;
+    text-align: center;
+}
+.containerTable{ 
+    margin-top: 50px;
+}
+.numero {
+    width: 50px;
+}
+.nome {
+    width: 270px;
+}
